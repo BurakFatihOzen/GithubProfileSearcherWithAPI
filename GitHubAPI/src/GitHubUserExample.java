@@ -14,7 +14,7 @@ public class GitHubUserExample {
         System.out.print("Lütfen GitHub kullanıcısı adı girin: ");
         String username = scanner.nextLine();
 
-        final String API_KEY = "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";
+        final String API_KEY = "";
         final String BASE_URL = "https://api.github.com/users/";
 
         String url = BASE_URL + username;
